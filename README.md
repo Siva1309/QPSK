@@ -1,11 +1,12 @@
 # QPSK
-
-## Aim
-Write a Python program for the modulation and demodulation of QPSK.
-# Tools required
-Python: A versatile programming language used for scientific computing and signal processing. NumPy: A powerful numerical library in Python for performing array-based operations and mathematical computations. Matplotlib: A plotting library for generating high-quality graphs and visualizations of data, essentialfor demonstrating the sampling process.
-## Program
-```
+## Date:03/05/25
+### Aim
+    Write a Python program for the modulation and demodulation of QPSK.
+### Tools required
+    Personal computer
+    Google colab software.
+### Program
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -66,7 +67,7 @@ plt.figure(figsize=(10, 6))
 
 plt.subplot(3, 1, 1)
 plt.plot(inp_time, inp_wave, drawstyle='steps-post')
-plt.title('Input Binary Data')
+plt.title('Input Bainar Data')
 plt.ylim(-0.5, 1.5)
 plt.grid(True)
 
@@ -83,8 +84,12 @@ plt.tight_layout()
 plt.grid(True)
 plt.show()
 ```
-## Output Waveform
-![image](https://github.com/user-attachments/assets/19558890-4f87-42b0-9849-8ea749cae6a0)
+### Output Waveform
+![image](https://github.com/user-attachments/assets/9330ea8f-8d63-440b-9258-720ab3c90e86)
 
-## Result
-Thus, QPSK (Quadrature Phase Shift Keying) modulation is implemented using Python.
+Graph 
+![WhatsApp Image 2025-05-06 at 7 36 51 PM](https://github.com/user-attachments/assets/c57d2a1a-4eae-46a3-b096-bf865814b9ad)
+
+
+### Results
+Thus the modulation and demodulation of QPSK program is executed and the parity matrix is generated successfully.
